@@ -1,0 +1,39 @@
+/******************************************************************************
+BLOG SPECIFIC STYLES START HERE 
+******************************************************************************/
+#searchInput {
+  font-size: 30px; 
+  width: 10em;
+}
+button {
+	background-color: #f8f5f1;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    color:#443328;
+    font-weight:bold;
+}
+
+#resultsList{
+	margin-top:2.5em;
+}
+.resultItem{
+	background: #f8f5f1;
+	border-radius:3px;
+  	margin: 10px 10px 10px 0;
+  	padding:10px;
+  	text-align: left;
+  	white-space: normal;
+  	font-style: italic;
+}
+.resultItem:hover{
+	border-left:5px solid #443328;
+}
+.resultTitle{
+
+}
+
+.resultSnippet a{
+	color:#443328;
+}
